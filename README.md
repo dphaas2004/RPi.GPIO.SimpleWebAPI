@@ -16,11 +16,14 @@ The python script allows the web client to interact with the server and execute 
 ## Javascript API
 
 ## Python Stuff
+There are two main Python libraries for controlling the Raspberry Pi that im familiar with.  RPi.GPIO and GPIOZERO.  I have chosen to use the former of these two specifically due to GPIOZERO's automated cleanup at the end of the script.
 
 ## Other things
 I Really like pinout.xyz's graphic of the raspberry pi.
 I think it makes it very easy to explain the GPIO layout and the pin locations.  For this reason I have provided a Server.sh script to initiate a Simple Python web server and an index.html page that renders this graphic and overlays the API.
 to run the web server just run `bash Server.sh` or `./Server.sh`
 the webpage is available on prort 8000.  To access open a web browser and enter the IP adderss of the device with :8000 appended to it
+
+#This Repo is a work in progress and may not function as expected
 
 
